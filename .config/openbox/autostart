@@ -1,0 +1,6 @@
+tint2 &
+compton &
+nitrogen --restore &
+rofi -show run &
+ibus-daemon --xim -d -r &
+xscreensaver -nosplash &
