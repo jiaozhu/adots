@@ -145,13 +145,12 @@ export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1
 alias yt="youtube-dl --add-metadata -ic" # Download video link
 alias yta="yt -x --embed-thumbnail --audio-format mp3" # Download only audio
 alias YT="youtube-viewer"
-alias setproxy="export http_proxy=socks5://127.0.0.1:1080 https_proxy=socks5://127.0.0.1:1080"
-alias unsetproxy="unset http_proxy https_proxy"
+
+source ~/.shortcuts
 
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 
-
-neofetch
-
+export PATH="$PATH:/home/wythe/.gem/ruby/2.5.0/bin:/home/wythe/.vim/plugged/vim-live-latex-preview/bin"
+source /usr/share/nvm/init-nvm.sh
